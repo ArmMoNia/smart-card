@@ -1,0 +1,184 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+/* Card */
+.master-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  width: 100%;
+  max-width: 360px;
+  height: 220px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right bottom, #040382, #50bdfc, #040382);
+  position: relative;
+  color: white;
+  text-shadow: 1px 0 2px #000;
+  font-style: italic;
+  z-index: -2;
+}
+.card-bank-name {
+  position: absolute;
+  left: 20px;
+}
+.card-logo {
+  position: absolute;
+  right: 20px;
+}
+.card-ship {
+  position: absolute;
+  left: 50px;
+  width: 65px;
+  top: 25%;
+}
+.card-arrow {
+  position: absolute;
+  top: 33%;
+  left: 10px;
+  border: 15px solid;
+  border-color: transparent #fff transparent transparent;
+}
+.card-num {
+  position: absolute;
+  top: 55%;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 5px;
+}
+.card-validdate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 62%;
+  width: 100%;
+  text-transform: uppercase;
+  text-shadow: none;
+  font-style: normal;
+}
+.text {
+  margin-right: 10px;
+  font-size: 10px;
+}
+.date {
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+.card-owner-name {
+  position: absolute;
+  top: 85%;
+  left: 30px;
+  letter-spacing: 5px;
+  font-style: normal;
+}
+.card-master-logo {
+  width: 70px;
+  position: absolute;
+  top: 73%;
+  right: 20px;
+}
+.card-back {
+  position: relative;
+}
+.card-black {
+  position: absolute;
+  background-color: black;
+  height: 35px;
+  width: 100%;
+  top: 10%;
+}
+.card-sticker {
+  position: absolute;
+  background-color: white;
+  height: 35px;
+  width: 75%;
+  top: 33%;
+}
+.card-sticker > hr {
+  margin: 2px 0;
+}
+.cvc-bar {
+  height: 28px;
+  background-color: white;
+  position: absolute;
+  top: 35%;
+  width: 86%;
+  z-index: -1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  color: black;
+  font-style: normal;
+  text-shadow: none;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: white;
+  font-size: 10px;
+  width: 90%;
+  font-style: normal;
+  text-shadow: none;
+}
+.info > p {
+  text-align: justify;
+}
+/* Forms */
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #d8d8d8;
+  gap: 10px;
+  margin-top: 30px;
+}
+.input,
+.input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+}
+.input-half {
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+  justify-content: space-between;
+}
+.input-half-indside {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.input-field,
+.innnn {
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+  line-height: 2.35rem;
+  outline-width: 0;
+}
+.pay-btn {
+  background-color: #50bdfc;
+  width: 360px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  height: 40px;
+}

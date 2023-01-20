@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="master-card">
+        <div class="card" id="card-front">
+          <h2 class="card-bank-name" id="bank-name">aarm</h2>
+          <h2 class="card-logo">Logo Here</h2>
+          <img
+            class="card-ship"
+            src="https://img.icons8.com/fluency/344/sim-card-chip.png"
+          />
+          <div class="card-arrow"></div>
+          <div class="card-num">1212312122</div>
+          <p class="card-validdate">
+            <span class="text">Valid<br />Date</span>
+            <span class="date">22/22</span>
+          </p>
+          <div class="card-owner-name">OWNER NAME</div>
+          <img class="card-master-logo" src="MA.png" />
+        </div>
+        <div class="card" id="card-back">
+          <div class="card-black"></div>
+          <div class="card-sticker">
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+          </div>
+          <div class="cvc-bar">535</div>
+          <div class="info">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus sit repellat nesciunt libero tempora voluptatem, est
+              quidem, quis nulla ducimus at architecto consequatur illo laborum.
+              Quod distinctio et mollitia voluptates perferendis eligendi
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+              est saepe ab distinctio, sit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <div class="input">
+          <label>Owner Name</label>
+          <input id="owner-name" class="input-field" type="text" />
+        </div>
+        <div class="input">
+          <label>Bank Name</label>
+          <input id="bank-name" class="input-field" type="text" />
+        </div>
+        <div class="input">
+          <label>Card Number</label>
+          <input id="card-num" class="input-field" type="text" maxlength="16" />
+        </div>
+        <div class="input-half">
+          <div class="input-half-indside">
+            <label>MM/YY</label>
+            <input id="exp-date" type="text" class="innnn" maxlength="4" />
+          </div>
+          <div class="input-half-indside">
+            <label>CVC Code</label>
+            <input id="cvc-code" type="text" class="innnn" maxlength="3" />
+          </div>
+        </div>
+        <button class="pay-btn">PAY NOW</button>
+      </div>
+    </div>
+
+    <script src-="script.js"></script>
+  </body>
+</html>
